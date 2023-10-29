@@ -1,0 +1,16 @@
+D:\Учеба\Работа\ShellSort\bin\Debug\ShellSort.exe.config
+D:\Учеба\Работа\ShellSort\bin\Debug\ShellSort.exe
+D:\Учеба\Работа\ShellSort\bin\Debug\ShellSort.pdb
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort.csproj.AssemblyReference.cache
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\Работа\ShellSort\obj\Debug\MainWindow.g.cs
+D:\Учеба\Работа\ShellSort\obj\Debug\App.g.cs
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort_MarkupCompile.cache
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort_MarkupCompile.lref
+D:\Учеба\Работа\ShellSort\obj\Debug\MainWindow.baml
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort.g.resources
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort.Properties.Resources.resources
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort.csproj.GenerateResource.cache
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort.csproj.CoreCompileInputs.cache
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort.exe
+D:\Учеба\Работа\ShellSort\obj\Debug\ShellSort.pdb

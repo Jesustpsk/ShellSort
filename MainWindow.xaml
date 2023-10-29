@@ -1,0 +1,52 @@
+﻿<Window x:Class="ShellSort.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShellSort"
+        mc:Ignorable="d"
+        Title="Shell Sort" Height="600" Width="800">
+    <Grid ShowGridLines="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.05*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.05*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.1*"/>
+        </Grid.RowDefinitions>
+        
+        <Canvas Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" Width="740" Height="400"
+                Loaded="canvas_OnLoaded" Background="Black"
+                Name="canvas" ClipToBounds="True"></Canvas>
+        
+        <Label Grid.Row="2" Grid.Column="1" Width="100" Height="25"
+               Margin="0 0 258 110">Array:</Label>
+        <TextBox Grid.Row="2" Grid.Column="1" Width="350" Height="105"
+                 Margin="0 20 0 0"
+                 VerticalScrollBarVisibility="Auto"
+                 Name="TbArray" TextWrapping="Wrap"
+                 IsReadOnly="True"></TextBox>
+        
+        <Button Grid.Row="2" Grid.Column="2" Width="100" Height="30"
+                Margin="260 0 0 20"
+                Click="ResetButton_Click" Name="resetButton">Reset</Button>
+        <Button Grid.Row="2" Grid.Column="2" Width="100" Height="30"
+                Margin="260 0 0 90"
+                Click="SortButton_Click" Name="sortButton">Start Sort</Button>
+        <Button Grid.Row="2" Grid.Column="2" Width="100" Height="30"
+                Margin="260 50 0 0"
+                Click="RandomButton_Click" Name="randomButton">Random</Button>
+        
+        <Label Grid.Row="2" Grid.Column="2" Width="170" Height="25"
+               Margin="0 0 190 110">Number of array comparisons:</Label>
+        
+        <Label Grid.Row="2" Grid.Column="2" Width="75" Height="25"
+               Margin="40 0 0 110"
+               Name="lblSwapCount">0</Label>
+    </Grid>
+</Window>
